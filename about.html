@@ -1,6 +1,7 @@
 <!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>About | Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
@@ -123,47 +124,19 @@
 <!-- TopNavBar -->
 <nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md border-b border-subtle/20 shadow-sm">
 <div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-gutter h-20">
-<div class="font-headline-lg text-headline-lg font-bold text-primary">Portfolio</div>
+<a class="font-headline-lg text-headline-lg font-bold text-primary" href="code.html">Portfolio</a>
 <div class="hidden md:flex items-center gap-8">
-<a class="text-primary font-semibold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#work">Work</a>
-<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="#about">About</a>
-<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="#services">Services</a>
-<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="#contact">Contact</a>
+<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="code.html#work">Work</a>
+<a class="text-primary font-semibold border-b-2 border-primary pb-1 font-body-md text-body-md" href="about.html">About</a>
+<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="code.html#services">Services</a>
+<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="code.html#contact">Contact</a>
 <a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="architectuer.html">Architecture</a></div>
 <div class="flex items-center gap-4">
 <button class="px-6 py-2 bg-primary text-on-primary rounded-lg font-label-sm text-label-sm hover:scale-95 active:scale-90 transition-transform">Resume</button>
 </div>
 </div>
 </nav>
-<main>
-<!-- Hero Section -->
-<section class="relative pt-40 pb-section-gap overflow-hidden">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter text-center">
-<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-low mb-8 border border-border-subtle animate-fade-in">
-<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
-<span class="font-label-sm text-label-sm text-text-secondary">Available for new opportunities</span>
-</div>
-<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-8 tracking-tighter">
-                    Architecting Intelligent Infrastructure &amp; AI Solutions
-                </h1>
-<p class="max-w-2xl mx-auto font-body-lg text-body-lg text-text-secondary mb-12">
-                    Scaling machine learning workflows and automating distributed systems with high-precision DevOps engineering.
-                </p>
-<div class="flex flex-col md:flex-row justify-center gap-4">
-<button class="px-8 py-4 lumina-gradient text-white rounded-lg font-body-md text-body-md font-semibold hover:shadow-2xl transition-all shadow-[0_20px_40px_rgba(0,0,0,0.08)]">
-                        View Projects
-                    </button>
-<button class="px-8 py-4 bg-white border border-border-subtle text-primary rounded-lg font-body-md text-body-md font-semibold hover:bg-surface-muted transition-all">
-                        Get in Touch
-                    </button>
-</div>
-</div>
-<!-- Abstract Graphic Background -->
-<div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full opacity-30 pointer-events-none">
-<div class="absolute top-0 left-1/4 w-96 h-96 bg-accent-purple/10 rounded-full blur-[128px]"></div>
-<div class="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary-container/20 rounded-full blur-[128px]"></div>
-</div>
-</section>
+<main class="pt-24">
 <!-- About Section -->
 <section class="py-section-gap bg-surface-container-lowest" id="about">
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
@@ -225,142 +198,6 @@
 </div>
 </div></div>
 </section>
-<!-- Projects Section (Bento Grid) -->
-<section class="py-section-gap" id="work">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
-<div class="mb-16">
-<h2 class="font-headline-xl text-headline-xl text-primary mb-4">Technical Case Studies</h2>
-<p class="text-text-secondary font-body-lg text-body-lg">End-to-end solutions for complex engineering challenges.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-<!-- Project 1: Scale-to-Zero ML -->
-<div class="md:col-span-8 group relative overflow-hidden rounded-[32px] border border-border-subtle bg-white hover-lift">
-<div class="p-10 flex flex-col h-full justify-between relative z-10">
-<div>
-<div class="flex items-center gap-3 mb-6">
-<span class="px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">Infrastructure</span>
-<span class="px-3 py-1 rounded-full bg-secondary-container/20 text-secondary font-label-sm text-label-sm">Active</span>
-</div>
-<h3 class="font-headline-lg text-headline-lg mb-4">Scale-to-Zero ML Infrastructure</h3>
-<p class="text-text-secondary max-w-md font-body-md text-body-md mb-8">
-                                    A serverless GPU inference platform utilizing KEDA and Knative to minimize idle costs while maintaining ultra-low latency for LLM deployments.
-                                </p>
-</div>
-<button class="flex items-center gap-2 font-bold text-primary hover:gap-4 transition-all">
-                                Case Study <span class="material-symbols-outlined">arrow_forward</span>
-</button>
-</div>
-<div class="absolute bottom-0 right-0 w-1/2 h-full hidden md:block">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A highly complex digital circuit board layout with glowing neon blue and white light pathways representing a neural network architecture. The visual style is clean, high-tech, and clinical with a soft depth of field effect. The image uses a minimalist light-mode aesthetic with strong contrast between the dark components and bright light emissions." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxThV8L8SBe2Z7VS_ELyMf3MLTTEVMZh4VOqVc10olT-wvlptaJMGwFAYDA0o4PpECuPwT1HQ7YDvu8Vid_fRxmWMCv6V7eLwmRSDt2hX1kTSVJDIXtbs2kfLoC2ypkg7y7t4HsqcIbowJnj0a2BB_2iKBwKw9vzHJSG01t_LmafUX1wikM5D_z2VRmSF6i4cSo332tFUlPTi3Blb-4f51pcgM0ybSztb8ZZ3nGZQ0dmwfTE67PFUzik3ZrtOyzzVRGfM-_vG7MFNw">
-</div>
-</div>
-<!-- Project 2: Distributed LLM -->
-<div class="md:col-span-4 group relative overflow-hidden rounded-[32px] border border-border-subtle bg-primary hover-lift">
-<div class="p-10 flex flex-col h-full text-on-primary">
-<h3 class="font-headline-lg text-headline-lg text-2xl mb-4">Distributed LLM Training Orchestrator</h3>
-<p class="text-on-primary/70 font-body-md text-body-md mb-8">
-                                Multi-cloud synchronization for high-throughput model training cycles.
-                            </p>
-<div class="mt-auto pt-8 border-t border-white/10">
-<div class="flex flex-wrap gap-2">
-<span class="text-[10px] uppercase tracking-widest px-2 py-1 border border-white/20 rounded">Ray</span>
-<span class="text-[10px] uppercase tracking-widest px-2 py-1 border border-white/20 rounded">Docker</span>
-<span class="text-[10px] uppercase tracking-widest px-2 py-1 border border-white/20 rounded">AWS</span>
-</div>
-</div>
-</div>
-</div>
-<!-- Project 3: Self-Healing Kubernetes -->
-<div class="md:col-span-5 group relative overflow-hidden rounded-[32px] border border-border-subtle bg-white hover-lift">
-<div class="p-8">
-<h3 class="font-headline-lg text-headline-lg text-xl mb-4">Self-Healing Kubernetes Clusters</h3>
-<p class="text-text-secondary font-body-md text-body-md mb-6">
-                                Implementation of automated node recovery and predictive failure detection for mission-critical apps.
-                            </p>
-<img class="rounded-2xl w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A futuristic data center aisle with sleek white server racks illuminated by subtle green status lights. The perspective is from floor level looking up, emphasizing scale and precision. The environment is perfectly clean and organized, representing high-end infrastructure management. The mood is calm, professional, and technologically advanced." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoqNcqKjYuMLeqiGmV-K8HRm2NZPt8zM7LNLe62QGuimmDQqKPbO8DZA55BBqNhm4BeO3e0wcI5jVdB54JKCwpzbOdw8Bn5eWN_3ubgzuOkxVd0VCSQZMCMrQ4pejUeOVPl_XMWhDU08oeo8uSPm5e6Fvl6rVYnRY7gTMwi-K_bb-sFb5wpdi9B35r05LKfVxIK9Wm75K-UZpPm1PtZhzPTyivxyaUh1_SFS5zyIlEOYKd2JXdFTK0OBgGOO7s2PGp7wZLJEcUEk-6">
-</div>
-</div>
-<!-- Project 4: Edge AI -->
-<div class="md:col-span-7 group relative overflow-hidden rounded-[32px] border border-border-subtle bg-surface-muted hover-lift">
-<div class="p-8 flex items-center h-full gap-8">
-<div class="w-1/2">
-<h3 class="font-headline-lg text-headline-lg text-xl mb-4">Edge AI Vision System</h3>
-<p class="text-text-secondary font-body-md text-body-md mb-6">
-                                    Deploying real-time object detection on resource-constrained hardware using TinyML.
-                                </p>
-<span class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm">Hardware + AI</span>
-</div>
-<div class="w-1/2 h-full">
-<img class="w-full h-full object-cover rounded-2xl" data-alt="Close up shot of a small, custom-built computer motherboard with several integrated chips and a small camera sensor. The lighting is soft and artistic, highlighting the metallic textures and green circuit board. The overall aesthetic is clean and modern, focusing on the intersection of hardware engineering and artificial intelligence development." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJGxRzyd8RW6DYUVPnHffVJVQJ82y-nKcnjGb8dQrkwnFLzvrSxaVDksYtzeQ7X51vyQTLo_CTzGFMR903oqtVKFXEj_ND9cyJs5CyP6cQvrlZGXt6MbERZK9MO21-tB4EOWg4G5cmfE3Gyc9rrFpHhCl7W3Lh42xKuzo5oTQlceWSPzueWRTv69lrCpajPBFB_D1yGatJr_Q0rE6HuznBrUdh0SFVSkounFOdsxjsQk9luYFVJyzBixMtv27Bh8XOk-4o_oSTXrA_">
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Contact Section -->
-<section class="py-section-gap bg-surface-container-lowest" id="contact">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
-<div class="grid md:grid-cols-2 gap-16">
-<div>
-<h2 class="font-headline-xl text-headline-xl text-primary mb-6">Let's Scale Your AI Infrastructure</h2>
-<p class="font-body-lg text-body-lg text-text-secondary mb-12">
-                            Ready to take your machine learning models from prototype to production? I'm available for consulting, strategic engineering partnerships, and architecture reviews.
-                        </p>
-<div class="space-y-8">
-<div class="flex items-center gap-6">
-<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center text-primary">
-<span class="material-symbols-outlined">mail</span>
-</div>
-<div>
-<div class="text-text-secondary font-label-sm text-label-sm uppercase">Email</div>
-<div class="font-bold text-lg">hello@devops-ai.engineer</div>
-</div>
-</div>
-<div class="flex items-center gap-6">
-<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center text-primary">
-<span class="material-symbols-outlined">location_on</span>
-</div>
-<div>
-<div class="text-text-secondary font-label-sm text-label-sm uppercase">Location</div>
-<div class="font-bold text-lg" data-location="San Francisco">Remote / San Francisco, CA</div>
-</div>
-</div>
-</div>
-</div>
-<div class="glass-card p-10 rounded-[32px] border border-border-subtle shadow-xl">
-<form class="space-y-6">
-<div class="grid md:grid-cols-2 gap-6">
-<div class="space-y-2">
-<label class="font-label-sm text-label-sm text-text-secondary ml-1">Full Name</label>
-<input class="w-full h-12 px-4 rounded-xl border-border-subtle focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none" placeholder="John Doe" type="text">
-</div>
-<div class="space-y-2">
-<label class="font-label-sm text-label-sm text-text-secondary ml-1">Work Email</label>
-<input class="w-full h-12 px-4 rounded-xl border-border-subtle focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none" placeholder="john@company.com" type="email">
-</div>
-</div>
-<div class="space-y-2">
-<label class="font-label-sm text-label-sm text-text-secondary ml-1">Inquiry Type</label>
-<select class="w-full h-12 px-4 rounded-xl border-border-subtle focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none">
-<option>MLOps Consulting</option>
-<option>Cloud Architecture</option>
-<option>Full-time Role</option>
-<option>Other</option>
-</select>
-</div>
-<div class="space-y-2">
-<label class="font-label-sm text-label-sm text-text-secondary ml-1">Message</label>
-<textarea class="w-full p-4 rounded-xl border-border-subtle focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none resize-none" placeholder="Tell me about your project..." rows="4"></textarea>
-</div>
-<button class="w-full py-4 bg-primary text-on-primary rounded-xl font-body-md text-body-md font-bold hover:bg-primary-container transition-all" type="submit">
-                                Send Message
-                            </button>
-</form>
-</div>
-</div>
-</div>
-</section>
 </main>
 <!-- Footer -->
 <footer class="w-full py-section-gap bg-surface-container-lowest border-t border-border-subtle">
@@ -395,8 +232,4 @@
             });
         });
     </script>
-
-
-
-
 </body></html>
