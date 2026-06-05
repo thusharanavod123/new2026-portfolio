@@ -1,10 +1,8 @@
 <!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>About | Portfolio</title>
+<title>Footer | Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script id="tailwind-config">
         tailwind.config = {
@@ -100,105 +98,8 @@
           },
         }
     </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.7);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        .lumina-gradient {
-            background: linear-gradient(135deg, #000000 0%, #4B5563 100%);
-        }
-        .hover-lift {
-            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-        .hover-lift:hover {
-            transform: translateY(-8px);
-        }
-    </style>
 </head>
 <body class="bg-surface font-body-md text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
-<!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md border-b border-subtle/20 shadow-sm">
-<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-gutter h-20">
-<a class="font-headline-lg text-headline-lg font-bold text-primary" href="code.html">Portfolio</a>
-<div class="hidden md:flex items-center gap-8">
-<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="code.html#work">Work</a>
-<a class="text-primary font-semibold border-b-2 border-primary pb-1 font-body-md text-body-md" href="about.html">About</a>
-<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="projects.html">Projects</a>
-<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="code.html#contact">Contact</a>
-<a class="text-text-secondary hover:text-primary transition-colors font-body-md text-body-md" href="architectuer.html">Architecture</a></div>
-<div class="flex items-center gap-4">
-<button class="px-6 py-2 bg-primary text-on-primary rounded-lg font-label-sm text-label-sm hover:scale-95 active:scale-90 transition-transform">Resume</button>
-</div>
-</div>
-</nav>
-<main class="pt-24">
-<!-- About Section -->
-<section class="py-section-gap bg-surface-container-lowest" id="about">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
-<div class="grid md:grid-cols-12 gap-16 items-center"><div class="md:col-span-6 relative group">
-<div class="absolute -inset-4 bg-surface-container-high rounded-[32px] -z-10 transition-transform group-hover:scale-105 duration-500"></div>
-<img alt="Professional Profile" class="w-full aspect-[4/5] object-cover rounded-[24px] shadow-sm" src="me.png">
-</div>
-<div class="md:col-span-6">
-<h2 class="font-headline-xl text-headline-xl text-primary mb-6">Architecting the bridge between ML and scale.</h2>
-<p class="font-body-lg text-body-lg text-text-secondary mb-10 leading-relaxed">
-        With a focus on reliability and automation, I build the systems that allow artificial intelligence to thrive in production environments. From orchestrating distributed training to managing serverless inference, I bridge the gap between model development and operational excellence.
-    </p>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-gap">
-<div class="p-6 rounded-2xl border border-border-subtle bg-surface">
-<span class="material-symbols-outlined text-secondary mb-4 text-3xl">hub</span>
-<h3 class="font-headline-lg text-headline-lg text-primary text-xl mb-2">Distributed Systems</h3>
-<p class="text-text-secondary font-body-md text-body-md">Optimizing large-scale workloads across hybrid-cloud environments.</p>
-</div>
-<div class="p-6 rounded-2xl border border-border-subtle bg-surface">
-<span class="material-symbols-outlined text-accent-pink mb-4 text-3xl">psychology</span>
-<h3 class="font-headline-lg text-headline-lg text-primary text-xl mb-2">MLOps Lifecycle</h3>
-<p class="text-text-secondary font-body-md text-body-md">Automating the path from local notebooks to global scale inference.</p>
-</div>
-</div>
-</div></div>
-<div class="mt-16">
-<div class="p-8 rounded-3xl bg-primary text-on-primary">
-<h4 class="font-headline-lg text-headline-lg text-2xl mb-8">Core Competencies</h4>
-<ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-<li class="flex items-start gap-4">
-<span class="material-symbols-outlined text-secondary-container">check_circle</span>
-<div>
-<div class="font-bold font-body-md text-body-md mb-1">Infrastructure as Code</div>
-<div class="text-on-primary/70 font-label-sm text-label-sm uppercase">Terraform / CloudFormation / Pulumi</div>
-</div>
-</li>
-<li class="flex items-start gap-4">
-<span class="material-symbols-outlined text-secondary-container">check_circle</span>
-<div>
-<div class="font-bold font-body-md text-body-md mb-1">Container Orchestration</div>
-<div class="text-on-primary/70 font-label-sm text-label-sm uppercase">Kubernetes / EKS / GKE / Helm</div>
-</div>
-</li>
-<li class="flex items-start gap-4">
-<span class="material-symbols-outlined text-secondary-container">check_circle</span>
-<div>
-<div class="font-bold font-body-md text-body-md mb-1">AI/ML Frameworks</div>
-<div class="text-on-primary/70 font-label-sm text-label-sm uppercase">PyTorch / TensorFlow / LangChain</div>
-</div>
-</li>
-<li class="flex items-start gap-4">
-<span class="material-symbols-outlined text-secondary-container">check_circle</span>
-<div>
-<div class="font-bold font-body-md text-body-md mb-1">Cloud Platforms</div>
-<div class="text-on-primary/70 font-label-sm text-label-sm uppercase">AWS / GCP / Azure</div>
-</div>
-</li>
-</ul>
-</div>
-</div></div>
-</section>
-</main>
 <!-- Footer -->
 <footer class="w-full py-section-gap bg-surface-container-lowest border-t border-border-subtle">
 <div class="flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-gutter gap-stack-gap">
@@ -209,27 +110,4 @@
             </div>
 </div>
 </footer>
-<script>
-        // Smooth scroll for internal links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Simple parallax effect for decorative blobs
-        window.addEventListener('mousemove', (e) => {
-            const blobs = document.querySelectorAll('.blur-full');
-            const mouseX = e.clientX / window.innerWidth;
-            const mouseY = e.clientY / window.innerHeight;
-            
-            blobs.forEach(blob => {
-                const speed = 20;
-                blob.style.transform = `translate(${mouseX * speed}px, ${mouseY * speed}px)`;
-            });
-        });
-    </script>
 </body></html>
