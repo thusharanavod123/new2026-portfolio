@@ -7,11 +7,13 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Man
 a { color: inherit; text-decoration: none; }
 .nav { height: 92px; padding: 0 4vw; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); position: absolute; top: 0; width: 100%; z-index: 10; }
 .mark { font-size: 1.35rem; font-weight: 800; letter-spacing: -.08em; }.mark span { color: #7457ff; }
+.name-mark { font-size:1.18rem;letter-spacing:-.045em;text-transform:uppercase;white-space:nowrap; }
+.name-mark span { color:var(--acid);font-size:1.35em; }
 .nav-links { display: flex; align-items: center; gap: 2.2rem; font-size: .83rem; font-weight: 600; }
 .nav-cta { background: var(--ink); color: white; padding: .8rem 1rem; display: flex; gap: .55rem; align-items: center; }.nav-cta svg { width: 15px; }
 .hero { min-height: 100vh; padding: 150px 4vw 50px; display: flex; flex-direction: column; justify-content: center; overflow: hidden; position: relative; }
-.hero-intro { display:flex; align-items:flex-start; justify-content:space-between; position:relative; z-index:3; min-height:260px; }
-.portrait { width:290px; height:290px; position:absolute; right:3vw; top:-30px; border-radius:50%; border:9px solid rgba(255,255,255,.72); box-shadow:0 28px 75px rgba(17,18,15,.2); }
+.hero-intro { display:flex; align-items:flex-start; justify-content:space-between; position:relative; z-index:3; min-height:340px; }
+.portrait { width:380px; height:380px; position:absolute; right:2vw; top:-38px; border-radius:50%; border:10px solid rgba(255,255,255,.72); box-shadow:0 32px 85px rgba(17,18,15,.22); }
 .portrait img { object-fit:cover; object-position:center 20%; border-radius:50%; }
 .portrait span { position:absolute; right:76%; bottom:2px; background:var(--acid); white-space:nowrap; padding:.6rem .8rem; font:500 .63rem "DM Mono",monospace; text-transform:uppercase; transform:rotate(-4deg); box-shadow:4px 4px 0 var(--ink); }
 .eyebrow,.section-label { font: 500 .72rem "DM Mono", monospace; text-transform: uppercase; letter-spacing: .12em; display: flex; align-items: center; gap: .8rem; position: relative; z-index: 2; }
@@ -37,5 +39,52 @@ a { color: inherit; text-decoration: none; }
   .hero-intro { min-height:175px; }
   .portrait { width:170px; height:170px; right:-2vw; top:0; border-width:5px; }
   .eyebrow { max-width:150px; }
+}
+
+/* Softer component system and improved readability */
+.nav-cta,
+.shop-card,
+.project-art,
+.contact-form,
+.shop-card > a,
+.contact-form button,
+.tags span,
+.portrait span { border-radius:18px; }
+.nav-cta,
+.shop-card > a,
+.contact-form button { border-radius:999px; }
+.project { border-radius:28px; padding-left:1.5rem; padding-right:1.5rem; transition:background-color .25s ease; }
+.project:hover { background:rgba(255,255,255,.035); }
+.project-art { border-radius:24px; }
+.shop-card { border-radius:32px; }
+.contact-form { border-radius:28px; }
+.contact-form input,
+.contact-form select,
+.contact-form textarea { border-radius:10px 10px 0 0; }
+.social-stack { border-radius:18px; overflow:hidden; }
+.social-stack a { padding:0 .8rem; }
+
+.eyebrow,
+.section-label,
+.contact-kicker { font-size:.82rem; line-height:1.5; }
+.nav-links { font-size:.94rem; }
+.scroll-link { font-size:.8rem; }
+.disciplines div { font-size:.82rem; }
+.project-number { font-size:.84rem; }
+.project-info > span { font-size:.76rem; }
+.tags span { font-size:.74rem; padding:.58rem .82rem; }
+.shop-tag { font-size:.8rem; }
+.shop-card > a { font-size:.88rem; }
+.availability { font-size:.78rem; }
+.social-stack a { font-size:.9rem; }
+.contact-form label > span { font-size:.76rem; }
+.contact-form input,
+.contact-form select,
+.contact-form textarea { font-size:1rem; }
+.contact footer { font-size:.78rem; }
+
+@media (max-width:760px) {
+  .hero-intro { min-height:215px; }
+  .hero .portrait { width:205px;height:205px;right:-3vw; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; } }

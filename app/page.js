@@ -78,7 +78,7 @@ export default function Home() {
         <span>Scroll energy</span>
       </motion.div>
       <nav className="nav">
-        <a className="mark" href="#top" aria-label="Home">TN<span>+</span></a>
+        <a className="mark name-mark" href="#top" aria-label="Thushara Navod — Home">Thushara Navod<span>.</span></a>
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#work">Work</a>
@@ -193,7 +193,7 @@ export default function Home() {
           </form>
         </motion.div>
         <footer>
-          <div className="mark">TN<span>+</span></div>
+          <div className="mark name-mark">Thushara Navod<span>.</span></div>
           <p>Cloud · AI · Brand</p>
           <div className="footer-links"><span>© {new Date().getFullYear()} Thushara Navod</span><a href="#top">Back to top ↑</a></div>
         </footer>
