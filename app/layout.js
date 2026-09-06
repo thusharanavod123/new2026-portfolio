@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Cloud, AI & Brand Builder",
-  description: "I engineer cloud systems, build intelligent products, and shape brands people remember.",
+  title: "Thushara Navod — Cloud, AI & Brand Builder",
+  description: "Thushara Navod engineers cloud systems, builds intelligent products, and shapes brands people remember.",
 };
 
 export default function RootLayout({ children }) {
